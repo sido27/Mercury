@@ -1,0 +1,51 @@
+#div {
+  text-align: center;
+}
+
+* {
+  background-color: #8dcdda;
+}
+
+#ede {
+  color: #3d4966;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 25px;
+  background-color: #3cbc8d;
+  color: white;
+}
+
+body {
+  font-size: 62.5%;
+}
+.no{
+    font-size: 1.4em;
+}
+
+.btn-primary,
+.btn-primary::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background: none;
+  border: 3px solid #20756e;
+  border-radius: 5px;
+  color: #1e5e47;
+  display: block;
+
+  font-weight: bold;
+  margin: 1em auto;
+
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  color: #f0ffff;
+}
